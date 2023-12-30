@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Aryans - Portfolio</title>
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+
+        <style>
+            body {
+                font-family: 'Roboto', sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 0;
+                background-color: #0c0c0c;
+                color: #f6f3f3;
+            }
+    
+            header {
+                background-color: #eb0808;
+                color: #090606;
+                text-align: center;
+                padding: 20px;
+            }
+    
+            h1, h2, h3 {
+                color: #0c8de3;
+            }
+    
+            img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 10px;
+            }
+    
+            ul {
+                list-style-type: none;
+                padding: 0;
+            }
+    
+            hr {
+                border: 1px solid #098ee6;
+            }
+    
+            form {
+                max-width: 400px;
+                margin: 0 auto;
+            }
+    
+            label, input, textarea {
+                display: block;
+                width: 100%;
+                margin-bottom: 10px;
+            }
+    
+            button {
+                background-color: #0c92eb;
+                color: #f9f7f7;
+                padding: 10px;
+                border: none;
+            }
+    
+            div.container {
+                padding: 20px;
+                background-color: #f60707;
+                margin: 20px;
+                border-radius: 10px;
+            }
+    
+            div {
+                margin-bottom: 20px;
+            }
+    
+            p {
+                font-size: 1.1em;
+            }
+    
+            footer {
+                text-align: center;
+                padding: 10px;
+                background-color: #fe0404;
+                color: #f7f3f3;
+            }
+        </style>
+    </head>
+    <body>
+          <!-- Section 1: Introduction -->
+    <header>
+        <h1>Aryan Dhalpe</h1>
+        <p>Web Developer</p>
+        <img src="data:image/jpeg;base64,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">
+    </header>
+
+    <!-- Section 2: Education and Work Experience -->
+    <div class="container">
+        <h2>Education</h2>
+        <ul>
+            <li>"Bachelor in Computer Science from Pune University (2021-2025)"</li>
+        </ul>
+        <hr>
+        <h2>Work Experience</h2>
+        <ul>
+            <li>
+                <ul>
+                <h3>Enternship in Coding savvy</h3>
+                <p>Third year of engineering</p>
+                <li>
+                    "Actively engaged in web development programming"
+                </li>
+                <li>
+                    "Gained hands on experience in field of web development"
+                </li>
+                <li>
+                    "Got pratical insights into the field of web development"
+                </li>
+                </ul>
+            </li>
+        </ul>
+        <hr>
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML: ⭐️⭐️</li>
+            <li>DSA in JAVA: ⭐️⭐️⭐️</li>
+            <li>Communication skills: ⭐️⭐️⭐️⭐️</li>
+        </ul>
+        <hr>
+        <h2>Awards and Certifications</h2>
+        <ul>
+            <li>"Certification of internship from coding savvy (Jan 2024)"</li>
+        </ul>
+        <hr>
+    </div>
+
+    <!-- Section 3: About Me -->
+    <div class="container">
+        <h2>About Me</h2>
+        <p>I am passionate web developer with expertise in multiple coding languages</p>
+    </div>
+
+    <!-- Section 4: Projects -->
+    <div>
+        <div>
+            <h3>Project 1</h3>
+            <p>Made a project on creating a website</p>
+            <a href="#">Read More</a>
+        </div>
+        <div>
+            <h3>Project 2</h3>
+            <p>Made a project on my resume</p>
+            <a href="#">Read More</a>
+        </div>
+    </div>
+    <!-- Section 5: Contact -->
+    <div class="container">
+        <h2>Contact</h2>
+        <form>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div><br>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div><br>
+
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- Section 6: Footer -->
+    <footer>
+        <p>&copy; 2023 Aryan Dhalpe. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
+       
